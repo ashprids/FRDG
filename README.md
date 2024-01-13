@@ -7,6 +7,11 @@ All of the website's objects and graphics (apart from images and icons) are made
 
 https://en.wikipedia.org/wiki/Box-drawing_character#Unicode
 
+## Credit
+All credit for assets not created by this repository's owner is mentioned either in credits/index.html, or somewhere on the page the content appears. 
+
+If you believe credit is missing somewhere, please notify me via a contact method mentioned in contact/index.html.
+
 ## License and Copyright
 Unless stated otherwise and/or sourced externally, all of this repository's contents are licensed under the GNU GPL-3.0 License.
 
