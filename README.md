@@ -1,4 +1,5 @@
-The website is not currently hosted on an external URL, however when it is, it'll be mentioned here.
+The website is hosted on the following domain:
+https://fridg3.org
 
 ## Information
 This website is my personal internet homepage, serving as a frontend for my personal projects and ramblings. The website was made with nothing more than inspiration and a HTML IDE.
