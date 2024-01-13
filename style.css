@@ -27,6 +27,7 @@ body {
 
 pre {
     font-size: 12pt;
+    
 }
 
 ::selection {
@@ -87,7 +88,7 @@ pre {
 #main-credits {
     font-family: "IBM_VGA";
     line-height: 1.0;
-    display:block;
+    display: block;
     word-wrap: break-word;
     width: 350pt;
     overflow-x: visible;
@@ -121,6 +122,7 @@ img {
     overflow-x: visible;
     white-space: normal;
     cursor: default;
+    text-align: center;
 }
 
 a:link {
