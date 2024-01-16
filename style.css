@@ -113,6 +113,16 @@ img {
     font-family: "IBM_VGA"
 }
 
+#link {
+    color: #8ab89f;
+    text-decoration: underline;
+}
+
+#link:hover {
+    color: #6a95a0;
+    text-decoration: underline;
+}
+
 #chapters {
     font-family: "iosevka";
     line-height: 1.0;
