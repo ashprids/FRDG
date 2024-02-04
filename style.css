@@ -92,9 +92,10 @@ pre {
     line-height: 1.0;
     display:block;
     word-wrap: break-word;
-    width: 500pt;
+    width: 100vw;
     overflow-x: visible;
     white-space: normal;
+    max-width: 500pt;
 }
 
 #main-credits {
@@ -117,7 +118,8 @@ pre {
 }
 
 img {
-    max-width: 500pt
+    width: 100vw;
+    max-width: 500pt;
 }
 
 #ch {
