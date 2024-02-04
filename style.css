@@ -34,6 +34,22 @@ pre {
     background-color: #4e739171
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+::-webkit-scrollbar-thumb {
+  background: #2e2e2e;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #535353;
+} 
+
 /* text styling and linking */
 
 #title {
@@ -148,6 +164,15 @@ img {
     white-space: normal;
     cursor: default;
     text-align: center;
+    user-select: none;
+}
+
+#footer {
+    text-align: center;
+    font-family: "IBM_VGA"; 
+    font-size: 10pt; 
+    color: #353535; 
+    user-select: none;
 }
 
 a:link {
