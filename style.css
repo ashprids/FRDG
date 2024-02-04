@@ -48,6 +48,7 @@ pre {
     text-align: center;
     font-family: "IBM_VGA";
     cursor: default;
+    line-height: 1;
 }
 
 #subtitle {
