@@ -98,7 +98,7 @@ pre {
     margin: auto;
 }
 #boxbutton:hover {
-    color: #8ab89f;
+    color: #72b574;
 }
 #boxbuttontext {
     font-family: "IBM_VGA";
@@ -134,18 +134,31 @@ pre {
     color: #8c8c8c;
 }
 
-img {
+#image {
     width: 100vw;
     max-width: 500pt;
 }
 
 #ch {
-    color: #8ab89f;
+    color: #72b574;
     font-family: "IBM_VGA"
+}
+#ch:hover {
+    color: #6a95a0;
+    text-decoration: underline;
+}
+
+#draftbutton {
+    color: #313f31;
+    font-family: "IBM_VGA"
+}
+#draftbutton:hover {
+    color: #455b61;
+    text-decoration: underline;
 }
 
 #link {
-    color: #8ab89f;
+    color: #72b574;
     text-decoration: underline;
 }
 
@@ -161,10 +174,10 @@ img {
     word-wrap: break-word;
     width: 350pt;
     overflow-x: visible;
-    white-space: normal;
     cursor: default;
     text-align: center;
     user-select: none;
+    white-space: normal;
 }
 
 #footer {
