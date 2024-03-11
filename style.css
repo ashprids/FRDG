@@ -110,9 +110,11 @@ pre {
     display:block;
     word-wrap: break-word;
     width: 100vw;
-    overflow-x: visible;
+    overflow-x: hidden;
     white-space: normal;
     max-width: 500pt;
+    box-sizing: border-box;
+    padding: 0 12px;
 }
 
 #main-credits {
@@ -137,11 +139,13 @@ pre {
 #image {
     width: 100vw;
     max-width: 500pt;
+    padding-right: 24px;
+    box-sizing: border-box;
 }
 
 #ch {
     color: #72b574;
-    font-family: "IBM_VGA"
+    font-family: "IBM_VGA";
 }
 #ch:hover {
     color: #6a95a0;
