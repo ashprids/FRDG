@@ -25,9 +25,19 @@ body {
     color: #cfcfcf;
 }
 
+/* body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none !important;
+    background: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 2px)
+} */
+
 pre {
     font-size: 12pt;
-    
 }
 
 ::selection {
@@ -92,18 +102,6 @@ pre {
     font-family: "IBM_VGA";
 }
 
-#boxbutton {
-    font-family: "iosevka";
-    text-align: center;
-    margin: auto;
-}
-#boxbutton:hover {
-    color: #72b574;
-}
-#boxbuttontext {
-    font-family: "IBM_VGA";
-}
-
 #main {
     font-family: "IBM_VGA";
     line-height: 1.0;
@@ -141,6 +139,17 @@ pre {
     max-width: 500pt;
     padding-right: 24px;
     box-sizing: border-box;
+    image-rendering: pixelated;
+}
+
+#smallbox {
+    width: 88px;
+    height: 31px;
+    image-rendering: pixelated;
+}
+
+marquee {
+    width: 234pt;
 }
 
 #ch {
