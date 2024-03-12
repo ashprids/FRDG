@@ -145,10 +145,12 @@ pre {
 #smallbox {
     width: 88px;
     height: 31px;
+    max-width: 88px;
+    max-height: 31px;
     image-rendering: pixelated;
 }
 
-marquee {
+#webring {
     width: 234pt;
 }
 
