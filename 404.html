@@ -1,42 +1,40 @@
+<!-- 404 PAGE 
+Fun fact: since this 404 page's directory is relative to the directory of whichever page it's called from,
+any links are ALSO relative to that directory. Therefore, we need to use absolute paths for any links which is
+why the stylesheet and favicon are linked to the full URL.
+
+This is the only page that does this (at least as of 16th Mar 2024).
+-->
+
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>fridg3.org | 404</title>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
+    <link rel="stylesheet" href="https://fridg3.org/style.css">
+    <link rel="icon" type="image/x-icon" href="https://fridg3.org/resources/favicon.ico">
     <meta name="description" content="Sorry, the page you're trying to find doesn't exist.">
 
-    <!-- Embed Meta Tags -->
-    <meta property="og:url" content="https://fridg3.org/404.html">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="fridg3.org | 404">
-    <meta property="og:description" content="Sorry, the page you're trying to find doesn't exist.">
-    <meta property="og:image" content="https://fridg3.org/preview-404.jpg">
-
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="fridg3.org">
-    <meta property="twitter:url" content="https://fridg3.org/404.html">
-    <meta name="twitter:title" content="fridg3.org | 404">
-    <meta name="twitter:description" content="Sorry, the page you're trying to find doesn't exist.">
-    <meta name="twitter:image" content="https://fridg3.org/preview-404.jpg">
+    <!-- Pages that don't exist unfortunately do not inherit this page's metadata so I'm not gonna bother. -->
 </head>
 
 <body>
 <pre id="title">
- .d888       d8b     888         .d8888b. 
-d88P"        Y8P     888        d88P  Y88b
-888                  888             .d88P
-888888888d888888 .d88888 .d88b.     8888" 
-888   888P"  888d88" 888d88P"88b     "Y8b.
-888   888    888888  888888  888888    888
-888   888    888Y88b 888Y88b 888Y88b  d88P
-888   888    888 "Y88888 "Y88888 "Y8888P" 
-                             888           
-                        Y8b d88P  .org     
-                         "Y88P"           
+:::::::::: :::::::::  :::::::::::
+:+:        :+:    :+:     :+:    
++:+        +:+    +:+     +:+    
+:#::+::#   +#++:++#:      +#+    
++#+        +#+    +#+     +#+    
+#+#        #+#    #+#     #+#    
+###        ###    ### ###########
+:::::::::   ::::::::   ::::::::  
+:+:    :+: :+:    :+: :+:    :+: 
++:+    +:+ +:+               +:+ 
++#+    +:+ :#:            +#++:  
++#+    +#+ +#+   +#+#        +#+ 
+#+#    #+# #+#    #+# #+#    #+# 
+   #########   ########   ######## .org
 </pre>
 <pre id="subtitle">
 404
@@ -45,11 +43,9 @@ d88P"        Y8P     888        d88P  Y88b
 Sorry, the page you're trying to find no longer exists.
 Or maybe it never did in the first place...
 Or maybe it doesn't yet.
+
+
+<a href="https://fridg3.org" id="link">Return home</a>
 </pre>
-<a href="../../index.html"><pre id="boxbutton">
-┌──────────────────────────────┐
-│         <span id="boxbuttontext">Return home</span>          │
-└──────────────────────────────┘</pre>
-</a>
 </body>
 </html>
