@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<!-- DEVELOPMENT REMINDERS 
+> Update totalImages in script.js to the amount of contents in /images each time new pictures are added
+> Ensure all images are named in the format of "X.jpg" where X is the number of the image
+   > Using GNOME Files or otherwise, select all images, right-click, and select "Rename..." to batch rename images
+   > For order, select "First Modified".
+-->
+
+<head>
+    <title>fridg3.org | gallery</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../resources/favicon.ico">
+    <meta name="description" content="Grab yourself a snack from the fridg3.org!">
+
+    <!-- Embed Meta Tags -->
+    <meta property="og:url" content="https://fridg3.org/gallery/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="fridg3.org | gallery">
+    <meta property="og:description" content="Grab yourself a snack from the fridg3.org!">
+    <meta property="og:image" content="https://fridg3.org/gallery/preview.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="fridg3.org">
+    <meta property="twitter:url" content="https://fridg3.org/gallery/">
+    <meta name="twitter:title" content="fridg3.org | gallery">
+    <meta name="twitter:description" content="Grab yourself a snack from the fridg3.org!">
+    <meta name="twitter:image" content="https://fridg3.org/gallery/preview.jpg">
+</head>
+
+<body>
+<div style="display: inherit; text-align: left;">
+<a id=return href="../">
+&lt;return
+</a>
+<pre id=title>
+:::::::::: :::::::::  :::::::::   :::::::: 
+:+:        :+:    :+: :+:    :+: :+:    :+:
++:+        +:+    +:+ +:+    +:+ +:+       
+:#::+::#   +#++:++#:  +#+    +:+ :#:       
++#+        +#+    +#+ +#+    +#+ +#+   +#+#
+#+#        #+#    #+# #+#    #+# #+#    #+#
+###        ###    ### #########   ######## 
+</pre>
+<pre id="subtitle">
+Gallery
+</pre><br>
+<pre id="main-gallery">
+
+<noscript><div style="text-align: center;">
+<h3 id="main-title">JavaScript Required</h3>
+This page uses JavaScript to display images.<br>
+Please enable JavaScript within your web browser's settings to view the gallery.
+<br><br>
+If enabling JavaScript is not an option, you can view the images directly by clicking <a target="_blank" id="link" href="images/">here</a>.
+</div></noscript>
+
+<div class="gallery" id="gallery"></div>
+<br><br>
+<div id="page-index"></div>
+<div class="pagination" id="pagination"></div>
+<script src="script.js"></script>
+
+
+<br>
+<p id="footer">© fridg3.org<br>All images are subject to <a target="_blank" id="ccbutton" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND</a>.</p>
+</pre>
+</div>
+</body>
+</html>

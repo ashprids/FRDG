@@ -115,6 +115,19 @@ pre {
     padding: 0 12px;
 }
 
+#main-gallery {
+    font-family: "IBM_VGA";
+    line-height: 1.0;
+    display:block;
+    word-wrap: break-word;
+    width: 100vw;
+    overflow-x: hidden;
+    white-space: normal;
+    max-width: 480pt;
+    box-sizing: border-box;
+    padding: 0 12px;
+}
+
 #main-credits {
     font-family: "IBM_VGA";
     line-height: 1.0;
@@ -139,7 +152,6 @@ pre {
     max-width: 500pt;
     padding-right: 24px;
     box-sizing: border-box;
-    image-rendering: pixelated;
 }
 
 #smallbox {
@@ -147,7 +159,6 @@ pre {
     height: 31px;
     max-width: 88px;
     max-height: 31px;
-    image-rendering: pixelated;
 }
 
 #webring {
@@ -194,12 +205,65 @@ pre {
     white-space: normal;
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery img {
+    margin: 2px;
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    max-width: 120px;
+    image-rendering: optimizeSpeed;
+    
+}
+.gallery img:hover {
+    outline: 1px solid #949494; /* Black outline, you can change the color and width */
+}
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+#page-index {
+    text-align: center;
+}
+.pagination button {
+    margin: 5px 5px;
+    padding: 7px 10px;
+    cursor: pointer;
+    max-width: 38px;
+    width: 38px;
+    background-color: #1d1d1d;
+    color: #a7a7a7;
+    border: 1px solid #242424;
+    font-family: "IBM_VGA";
+    font-size: 11pt;
+}
+.pagination button:hover {
+    background-color: #2e2e2e;
+    color: #cfcfcf;
+}
+
 #footer {
     text-align: center;
     font-family: "IBM_VGA"; 
     font-size: 10pt; 
     color: #353535; 
     user-select: none;
+}
+
+#ccbutton {
+    text-align: center;
+    font-family: "IBM_VGA"; 
+    font-size: 10pt; 
+    color: #37335c; 
+    user-select: none;
+    text-decoration: underline;
+}
+#ccbutton:hover {
+    color: #565280;
 }
 
 a:link {
