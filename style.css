@@ -154,6 +154,12 @@ pre {
     box-sizing: border-box;
 }
 
+#chimage {
+    width: 100vw;
+    max-width: 350pt;
+    box-sizing: border-box;
+}
+
 #smallbox {
     width: 88px;
     height: 31px;
@@ -194,7 +200,7 @@ pre {
 
 #chapters {
     font-family: "iosevka";
-    line-height: 1.0;
+    line-height: 0.94;
     display:block;
     word-wrap: break-word;
     width: 350pt;
