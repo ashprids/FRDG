@@ -1,5 +1,7 @@
-The website is hosted on the following domain:
+The website was once hosted on the following domain:
 https://fridg3.org
+
+It has since been replaced by a newer, private repository.
 
 ## Information
 This website is my personal internet homepage, serving as a frontend for my personal projects and ramblings. The website was made with nothing more than inspiration and a HTML IDE.
